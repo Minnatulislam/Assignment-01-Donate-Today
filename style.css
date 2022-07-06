@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 70px;
 }
 
 h2 {
@@ -59,6 +59,7 @@ p {
 
 .Donation_Payment-area {
     text-align: center;
+
 }
 
 .select-payment li {
@@ -75,9 +76,32 @@ p {
     border-radius: 7px;
 }
 
+.total-amount {
+    margin-top: 3%;
+    margin-left: 20px;
+}
+
+.total-amount input {
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    padding: 5px 20px;
+
+}
+
+#amount-button {
+    padding-left: 3%;
+
+}
+
 .donating_project-area {
     text-align: center;
     margin-top: 150px;
+}
+
+#donate-plan_discribtion {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .flexible-container {
@@ -126,23 +150,43 @@ p {
 
 .update_subscription {
     text-align: center;
+
 }
 
 .mail_subscription {
     text-align: center;
-    size: 5%;
-    margin-top: 5%;
-    margin-bottom: 10%
+    margin-bottom: 10%;
 }
 
-.subscribtion_button {
-    text-decoration: none;
+.mail_subscription input {
+    font-size: 18px;
+    width: 80%%;
+
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+
+
+}
+
+.mail_subscription button {
     color: #ffffff;
     background-image: linear-gradient(to bottom right, rgb(253, 0, 0), rgb(255, 96, 4));
-    border-radius: 4%;
-    padding: 15px 40px;
-
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    border none;
+    border-radius: 5px;
+    padding: 15px 20px;
 }
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+}
+
+
 
 .backgroung_img-story {
     background-image: url(images/story-banner1.jpg);
