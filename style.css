@@ -7,6 +7,10 @@ h1 {
     font-size: 80px;
 }
 
+h2 {
+    font-size: 50px;
+}
+
 p {
     font-size: 18px;
 }
@@ -17,6 +21,7 @@ p {
     background-size: cover;
     height: 50vh;
     padding: 10%;
+    margin-bottom: 100px;
 }
 
 .top-banner h1 {
@@ -45,4 +50,39 @@ p {
     padding: 20px 40px;
     margin-left: 530px;
     border-radius: 30px;
+}
+
+.Donation_Payment-area {
+    text-align: center;
+}
+
+.select-payment li {
+    display: inline;
+    font-size: 60px;
+    text-align: center;
+    margin-left: 35px;
+}
+
+#select-amount {
+    border: 3px solid red;
+    padding: 15px;
+    background-color: rgb(245, 216, 179);
+    border-radius: 7px;
+}
+
+.donating_project-area {
+    text-align: center;
+}
+
+.flexible-container {
+    display: flex;
+    margin: 8%;
+}
+
+.donate-item {
+    background-color: bisque;
+    width: 25%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
 }
