@@ -19,7 +19,7 @@ p {
     background-image: url(images/top-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: 500px;
     padding: 10%;
     margin-bottom: 100px;
 }
@@ -52,6 +52,11 @@ p {
     border-radius: 30px;
 }
 
+.link-button {
+    margin-right: 30%;
+
+}
+
 .Donation_Payment-area {
     text-align: center;
 }
@@ -72,17 +77,117 @@ p {
 
 .donating_project-area {
     text-align: center;
+    margin-top: 150px;
 }
 
 .flexible-container {
     display: flex;
-    margin: 8%;
+    margin: 4% 10%;
+
 }
 
 .donate-item {
+    text-align: justify;
     background-color: bisque;
+    border-radius: 2%;
     width: 25%;
     margin-left: 2%;
     margin-right: 2%;
-    padding: 2%;
+    padding: 3%;
+    box-shadow: 5px 5px 20px rgb(197, 194, 194);
+}
+
+.contribution-area {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.contribution {
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 8%;
+}
+
+.contribution2 {
+    text-align: justify;
+    padding-left: 8%;
+
+}
+
+
+.contribution-link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom right, rgb(253, 0, 0), rgb(255, 96, 4));
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.update_subscription {
+    text-align: center;
+}
+
+.mail_subscription {
+    text-align: center;
+    size: 5%;
+    margin-top: 5%;
+    margin-bottom: 10%
+}
+
+.subscribtion_button {
+    text-decoration: none;
+    color: #ffffff;
+    background-image: linear-gradient(to bottom right, rgb(253, 0, 0), rgb(255, 96, 4));
+    border-radius: 4%;
+    padding: 15px 40px;
+
+}
+
+.backgroung_img-story {
+    background-image: url(images/story-banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    color: #ffffff;
+    text-shadow: ;
+    text-shadow: 4px 4px 15px #000000;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.join-charities p {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.join-charities {
+    margin-bottom: 100px;
+}
+
+.testimonial {
+    display: inline-flex;
+    margin-bottom: 100px;
+}
+
+.testimonial img {
+    width: 30%;
+    margin-left: 12%;
+}
+
+.footer-background {
+    background-color: #000000;
+    height: 150px;
+    color: #FF6600;
+    text-align: center;
+    font-size: 22px;
+    font-style: italic;
+    padding-top: 50px;
+}
+
+.footer-background p {
+    color: #ffffff;
+    font-size: 15px;
 }
