@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 80px;
 }
 
 h2 {
@@ -12,7 +12,7 @@ h2 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .top-banner {
@@ -48,7 +48,7 @@ p {
     font-size: 20px;
     background-image: linear-gradient(to bottom right, rgb(253, 0, 0), rgb(255, 96, 4));
     padding: 20px 40px;
-    margin-left: 530px;
+    margin-left: 45%;
     border-radius: 30px;
 }
 
@@ -90,8 +90,7 @@ p {
 }
 
 #amount-button {
-    padding-left: 3%;
-
+    margin-right: 45%;
 }
 
 .donating_project-area {
@@ -99,26 +98,38 @@ p {
     margin-top: 150px;
 }
 
+
 #donate-plan_discribtion {
     margin-left: 10%;
     margin-right: 10%;
+    
 }
 
 .flexible-container {
     display: flex;
-    margin: 4% 10%;
-
+}
+.donate-item-area{
+    margin-left: 15%;
+    margin-right: 10%;
+   margin-top: 4%;
 }
 
 .donate-item {
     text-align: justify;
-    background-color: bisque;
+    background-color: rgb(245, 155, 236);
     border-radius: 2%;
-    width: 25%;
+    width: 22%;
+    height: 300px;
     margin-left: 2%;
     margin-right: 2%;
     padding: 3%;
     box-shadow: 5px 5px 20px rgb(197, 194, 194);
+}
+#foodfamily-background-color{
+    background-color: #87fd60;
+}
+#education-background-color{
+    background-color: rgb(108, 248, 248);
 }
 
 .contribution-area {
@@ -128,14 +139,32 @@ p {
 
 .contribution {
     text-align: justify;
-    padding-left: 15px;
-    padding-right: 8%;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 8%;
+}
+.contribution-img1{
+    width: 100%; 
+}
+.contribution-img1 img{
+    width: 800px;
+    height: 450px;
+    margin-right: 200px;
 }
 
+.contribution-img2{
+    width: 100%; 
+}
+.contribution-img2 img{
+    width: 800px;
+    height: 450px;
+    margin-left: 200px;
+}
 .contribution2 {
     text-align: justify;
-    padding-left: 8%;
-
+    width: 100%;
+    margin-left: 8%;
+    margin-right: 10%;
 }
 
 
@@ -147,26 +176,27 @@ p {
     padding: 15px 30px;
     border-radius: 5px;
 }
+.Get-in-touch{
+    background-color: rgb(232, 232, 232);
+    height: 400px;
+    padding-top: 100px;
+}
 
 .update_subscription {
     text-align: center;
-
 }
 
 .mail_subscription {
     text-align: center;
-    margin-bottom: 10%;
+    
 }
 
 .mail_subscription input {
     font-size: 18px;
-    width: 80%%;
-
+    width: 15%;
     padding: 15px 20px;
     margin: 8px 0;
     display: inline-block;
-
-
 }
 
 .mail_subscription button {
@@ -175,9 +205,9 @@ p {
     font-size: 18px;
     text-align: center;
     text-transform: uppercase;
-    border none;
+    border:none;
     border-radius: 5px;
-    padding: 15px 20px;
+    padding: 18px 35px;
 }
 
 input[type=submit] {
@@ -185,9 +215,6 @@ input[type=submit] {
     color: white;
     border: none;
 }
-
-
-
 .backgroung_img-story {
     background-image: url(images/story-banner1.jpg);
     background-repeat: no-repeat;
@@ -195,27 +222,22 @@ input[type=submit] {
     background-attachment: fixed;
     height: 500px;
     color: #ffffff;
-    text-shadow: ;
     text-shadow: 4px 4px 15px #000000;
     text-align: center;
     padding-top: 20%;
 }
-
 .join-charities p {
     text-align: center;
     font-size: 30px;
     margin: 20px;
 }
-
 .join-charities {
     margin-bottom: 100px;
 }
-
 .testimonial {
     display: inline-flex;
     margin-bottom: 100px;
 }
-
 .testimonial img {
     width: 30%;
     margin-left: 12%;
@@ -230,7 +252,6 @@ input[type=submit] {
     font-style: italic;
     padding-top: 50px;
 }
-
 .footer-background p {
     color: #ffffff;
     font-size: 15px;
