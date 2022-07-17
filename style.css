@@ -1,6 +1,7 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
     margin: 0px;
+
 }
 
 h1 {
@@ -12,14 +13,14 @@ h2 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .top-banner {
     background-image: url(images/top-banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 450px;
     padding: 10%;
     margin-bottom: 100px;
 }
@@ -50,11 +51,6 @@ p {
     padding: 20px 40px;
     margin-left: 45%;
     border-radius: 30px;
-}
-
-.link-button {
-    margin-right: 30%;
-
 }
 
 .Donation_Payment-area {
@@ -90,7 +86,7 @@ p {
 }
 
 #amount-button {
-    margin-right: 45%;
+    margin-right: 42%;
 }
 
 .donating_project-area {
@@ -102,16 +98,18 @@ p {
 #donate-plan_discribtion {
     margin-left: 10%;
     margin-right: 10%;
-    
+
 }
 
 .flexible-container {
     display: flex;
 }
-.donate-item-area{
+
+.donate-item-area {
     margin-left: 15%;
     margin-right: 10%;
-   margin-top: 4%;
+    margin-top: 4%;
+    margin-bottom: 150px;
 }
 
 .donate-item {
@@ -119,51 +117,59 @@ p {
     background-color: rgb(245, 155, 236);
     border-radius: 2%;
     width: 22%;
-    height: 300px;
+    height: 330px;
     margin-left: 2%;
     margin-right: 2%;
     padding: 3%;
     box-shadow: 5px 5px 20px rgb(197, 194, 194);
 }
-#foodfamily-background-color{
+
+#foodfamily-background-color {
     background-color: #87fd60;
 }
-#education-background-color{
+
+#education-background-color {
     background-color: rgb(108, 248, 248);
 }
 
 .contribution-area {
-    margin-top: 200px;
-    margin-bottom: 200px;
+
+    margin-bottom: 150px;
 }
 
 .contribution {
     text-align: justify;
     width: 100%;
     margin-left: 10%;
-    margin-right: 8%;
-}
-.contribution-img1{
-    width: 100%; 
-}
-.contribution-img1 img{
-    width: 800px;
-    height: 450px;
-    margin-right: 200px;
+    margin-right: 10%;
 }
 
-.contribution-img2{
-    width: 100%; 
+.contribution-img1 {
+    width: 100%;
+    margin-right: 150px;
+    margin-top: 75px;
 }
-.contribution-img2 img{
-    width: 800px;
-    height: 450px;
-    margin-left: 200px;
+
+.contribution-img1 img {
+    width: 100%;
+
+
 }
+
+.contribution-img2 {
+    width: 100%;
+    margin-left: 150px;
+    margin-top: 75px;
+}
+
+.contribution-img2 img {
+    width: 100%;
+}
+
 .contribution2 {
     text-align: justify;
     width: 100%;
-    margin-left: 8%;
+    margin-left: 10%;
     margin-right: 10%;
 }
 
@@ -176,7 +182,8 @@ p {
     padding: 15px 30px;
     border-radius: 5px;
 }
-.Get-in-touch{
+
+.Get-in-touch {
     background-color: rgb(232, 232, 232);
     height: 400px;
     padding-top: 100px;
@@ -188,7 +195,7 @@ p {
 
 .mail_subscription {
     text-align: center;
-    
+
 }
 
 .mail_subscription input {
@@ -205,7 +212,7 @@ p {
     font-size: 18px;
     text-align: center;
     text-transform: uppercase;
-    border:none;
+    border: none;
     border-radius: 5px;
     padding: 18px 35px;
 }
@@ -215,6 +222,7 @@ input[type=submit] {
     color: white;
     border: none;
 }
+
 .backgroung_img-story {
     background-image: url(images/story-banner1.jpg);
     background-repeat: no-repeat;
@@ -226,18 +234,22 @@ input[type=submit] {
     text-align: center;
     padding-top: 20%;
 }
+
 .join-charities p {
     text-align: center;
     font-size: 30px;
     margin: 20px;
 }
+
 .join-charities {
     margin-bottom: 100px;
 }
+
 .testimonial {
     display: inline-flex;
     margin-bottom: 100px;
 }
+
 .testimonial img {
     width: 30%;
     margin-left: 12%;
@@ -252,6 +264,7 @@ input[type=submit] {
     font-style: italic;
     padding-top: 50px;
 }
+
 .footer-background p {
     color: #ffffff;
     font-size: 15px;
